@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Deposit Successful</name>
+   <name>span_TransactionFailed</name>
    <tag></tag>
-   <elementGuidId>6e9b53c7-68cb-46dd-9864-a23ac2bcb1cb</elementGuidId>
+   <elementGuidId>b7c6855f-038d-49ea-ae52-f5af7aae0a7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Deposit Successful&quot;i</value>
+         <value>internal:text=&quot;Transaction Failed. You can not withdraw amount more than the balance.&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d8f68173-f373-41ed-8cc6-7c8ac8be2d9e</webElementGuid>
+      <webElementGuid>6239b5ad-b59d-47dd-a846-84194a97e8d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>error ng-binding</value>
-      <webElementGuid>d44cdf10-7fb0-4f6d-b4f4-395d3228a934</webElementGuid>
+      <webElementGuid>7e9cf68a-5790-4d26-8cbe-611fa481cbba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,15 @@
       <name>ng-show</name>
       <type>Main</type>
       <value>message</value>
-      <webElementGuid>ce8e25c1-de4d-4e19-9f16-31710ed3af92</webElementGuid>
+      <webElementGuid>e12cd186-a4ad-46c0-bb22-418fd4fa65d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Deposit Successful</value>
-      <webElementGuid>5779c1c9-5a64-4eee-82c9-49e97f6b89d0</webElementGuid>
+      <value>Transaction Failed. You can not withdraw amount more than the balance.</value>
+      <webElementGuid>4acb292d-57f0-4724-a14d-e256c72539ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-ddcb390cc1cb26ed48106ba9c2bfbda0</value>
-      <webElementGuid>ac618a1e-2a8c-43e6-81d1-93714f24ed4f</webElementGuid>
+      <webElementGuid>b09dfca7-61a6-43e9-a563-e12e78171f84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' error ')]</value>
-      <webElementGuid>998f0617-5c34-4352-8501-f44e70d6f3a3</webElementGuid>
+      <webElementGuid>d2e9744e-3649-4f6b-8a82-1febf0f6f358</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,14 +77,14 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' error ')]</value>
-      <webElementGuid>546bebfd-ca10-49aa-b4a4-04a355d28e3e</webElementGuid>
+      <webElementGuid>bd98fade-8f2b-4ef2-9f9e-a600ddb902ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Deposit Successful' or . = 'Deposit Successful')]</value>
-      <webElementGuid>030a9dc8-1d71-4b71-9eec-be42b5429e25</webElementGuid>
+      <value>//span[(text() = 'Transaction Failed. You can not withdraw amount more than the balance.' or . = 'Transaction Failed. You can not withdraw amount more than the balance.')]</value>
+      <webElementGuid>eba405db-69f6-4d18-b52d-472de58e6913</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

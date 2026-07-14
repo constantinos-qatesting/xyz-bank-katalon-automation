@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Customer Login</name>
+   <name>span_DepositSuccessful</name>
    <tag></tag>
-   <elementGuidId>7ca1b943-d030-4717-9127-0febb8779e99</elementGuidId>
+   <elementGuidId>6e9b53c7-68cb-46dd-9864-a23ac2bcb1cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@ng-click = 'customer()']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Customer Login' or . = 'Customer Login')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' error ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[ng-click=&quot;customer\(\)&quot;]</value>
+         <value>.error</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Customer Login&quot;i]</value>
+         <value>internal:text=&quot;Deposit Successful&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>0fc84a21-49cb-4814-8bcc-c5192a101862</webElementGuid>
+      <value>span</value>
+      <webElementGuid>d8f68173-f373-41ed-8cc6-7c8ac8be2d9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg</value>
-      <webElementGuid>3eb1d0e7-88d4-43d4-bbd8-a0eb52faecb0</webElementGuid>
+      <value>error ng-binding</value>
+      <webElementGuid>d44cdf10-7fb0-4f6d-b4f4-395d3228a934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
+      <name>ng-show</name>
       <type>Main</type>
-      <value>customer()</value>
-      <webElementGuid>65c85a13-42c3-4b61-a254-2b70bda31844</webElementGuid>
+      <value>message</value>
+      <webElementGuid>ce8e25c1-de4d-4e19-9f16-31710ed3af92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Customer Login</value>
-      <webElementGuid>fefcacf6-31ab-472c-b1bd-cf58caca34dd</webElementGuid>
+      <value>Deposit Successful</value>
+      <webElementGuid>5779c1c9-5a64-4eee-82c9-49e97f6b89d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-00e9f3673f0c1bdd5dbb1d37502d9e11</value>
-      <webElementGuid>56843504-42a5-476b-b8e0-607cf2ba9a7c</webElementGuid>
+      <value>md5.v1-ddcb390cc1cb26ed48106ba9c2bfbda0</value>
+      <webElementGuid>ac618a1e-2a8c-43e6-81d1-93714f24ed4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@ng-click = 'customer()']</value>
-      <webElementGuid>29878b3a-5d0a-4104-8108-91a98c1f3c01</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' error ')]</value>
+      <webElementGuid>998f0617-5c34-4352-8501-f44e70d6f3a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@ng-click = 'customer()']</value>
-      <webElementGuid>5ba46cad-6336-48f4-8942-3ddb2e53009c</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' error ')]</value>
+      <webElementGuid>546bebfd-ca10-49aa-b4a4-04a355d28e3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Customer Login' or . = 'Customer Login')]</value>
-      <webElementGuid>303442d7-ead8-45f6-97e9-d9280054b2ae</webElementGuid>
+      <value>//span[(text() = 'Deposit Successful' or . = 'Deposit Successful')]</value>
+      <webElementGuid>030a9dc8-1d71-4b71-9eec-be42b5429e25</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

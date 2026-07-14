@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_amount</name>
+   <name>button_Withdraw</name>
    <tag></tag>
-   <elementGuidId>a7c377b7-0124-4a98-baf8-b94fa8d80093</elementGuidId>
+   <elementGuidId>f0b5200f-2c46-438f-99c0-6a77876c613d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ')]</value>
+         <value>//*[@ng-click = 'withdrawl()']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.form-control</value>
+         <value>[ng-click=&quot;withdrawl\(\)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;amount&quot;i]</value>
+         <value>internal:role=button[name=&quot;Withdrawl&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,77 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>a00c5b67-a96c-4385-8ddd-77ac4cebb020</webElementGuid>
+      <value>button</value>
+      <webElementGuid>858b9c32-2f14-4a8a-a307-ac47a9834371</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>ng-class</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>f25dbc41-715a-430e-88aa-789b31ff6084</webElementGuid>
+      <value>btnClass3</value>
+      <webElementGuid>ed574f2e-1792-4464-9f7b-9f8aa95c47bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
-      <webElementGuid>cd526f09-6f20-45bb-beb7-68088e0b718f</webElementGuid>
+      <value>btn btn-lg tab</value>
+      <webElementGuid>5aef3b6e-3f02-4e29-826f-cb6f728d2af6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>amount</value>
-      <webElementGuid>f20e9d66-c6ef-401a-88d8-2c68fa3a0c48</webElementGuid>
+      <value>withdrawl()</value>
+      <webElementGuid>a316c82f-3528-41f0-9ca8-2e271f7ee9bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>amount</value>
-      <webElementGuid>62771bed-6128-493f-af20-cce6f6e85462</webElementGuid>
+      <value>Withdrawl
+		
+		</value>
+      <webElementGuid>215f3beb-839f-4801-9db2-4c2f70b1e4e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-6c4bde44da374689d00b02d5e1e3e43c</value>
-      <webElementGuid>453705f4-2395-4649-8e0f-9b084811abe4</webElementGuid>
+      <value>md5.v1-3af6b6d72a01948958ff763e6f6f0de5</value>
+      <webElementGuid>28dd0eb8-5451-4dda-9da1-7c943d3a1120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ')]</value>
-      <webElementGuid>9747076d-1b44-4ada-9ecd-e040efed0230</webElementGuid>
+      <value>//*[@ng-click = 'withdrawl()']</value>
+      <webElementGuid>5a7f9daa-54ac-4a4b-ac29-ed636400f44f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ')]</value>
-      <webElementGuid>020fc2c4-65a9-416e-a0cc-18f6d7b1e6eb</webElementGuid>
+      <value>//*[@ng-click = 'withdrawl()']</value>
+      <webElementGuid>d3379652-756f-4082-82b7-963736cb9fff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'number' and @placeholder = 'amount']</value>
-      <webElementGuid>5b1eb9f1-7bc4-4508-80bb-a33349055e54</webElementGuid>
+      <value>//button[(text() = 'Withdrawl
+		
+		' or . = 'Withdrawl
+		
+		')]</value>
+      <webElementGuid>cb48b454-c878-4820-b77f-8ab45c263a17</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Withdraw_ValidAmount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a3d343b-e046-4abe-bc8b-2858164a59e9</testCaseGuid>
+</TestCaseEntity>

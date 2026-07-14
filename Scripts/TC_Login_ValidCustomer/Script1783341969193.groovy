@@ -21,13 +21,13 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl(GlobalVariable.BASE_URL)
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Customer Login'))
+WebUI.click(findTestObject('Page_XYZ Bank/button_CustomerLogin'))
 
 WebUI.selectOptionByLabel(findTestObject('Page_XYZ Bank/select_userSelect'), 'Harry Potter', false)
 
 WebUI.click(findTestObject('Page_XYZ Bank/button_SubmitDeposit'))
 
-WebUI.verifyElementText(findTestObject('Page_XYZ Bank/strong_Welcome Harry Potter'), 'Welcome Harry Potter !!')
+WebUI.verifyElementText(findTestObject('Page_XYZ Bank/strong_WelcomeHarryPotter'), 'Welcome Harry Potter !!')
 
 WebUI.closeBrowser()
 

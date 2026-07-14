@@ -39,7 +39,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>2097805d-fa95-4a9b-af7c-be6991a4ff2e</webElementGuid>
+      <webElementGuid>ffa8eb7f-4ed9-4ecf-8812-de6aef7bea5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-pristine ng-untouched ng-valid</value>
-      <webElementGuid>56f3feec-720b-4523-83aa-13536094e8de</webElementGuid>
+      <webElementGuid>a8e56172-6a53-4714-a75c-b0ec980c8430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>userSelect</value>
-      <webElementGuid>ba398ceb-7d46-428c-a29b-ab8163cac2ce</webElementGuid>
+      <webElementGuid>93ebe9fd-3e76-4e61-818c-c5fd9ba5d43c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>id</name>
       <type>Main</type>
       <value>userSelect</value>
-      <webElementGuid>69bd2257-fa77-4026-b244-f408bb2e8a8a</webElementGuid>
+      <webElementGuid>15a8364d-b8cf-477e-93ae-45e66ce1b9df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>custId</value>
-      <webElementGuid>9a93cb72-8582-4eeb-89f9-58b9f23a7cb0</webElementGuid>
+      <webElementGuid>71bd8714-38af-4a1a-bbf9-adb3980536cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
 	      ---Your Name--- 
 	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
 	    </value>
-      <webElementGuid>a40ed273-fa34-4b70-90cb-4d8eb820f84f</webElementGuid>
+      <webElementGuid>8bd89b7d-0f47-4526-beac-f4e7bdf2058c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-bad364bb78b370ad8b83a86d087dbd1f</value>
-      <webElementGuid>3ecdb2bf-2e58-4015-80c8-1d94e836ee64</webElementGuid>
+      <webElementGuid>8a30a213-5078-4339-bb34-04567be1b4b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'userSelect']</value>
-      <webElementGuid>791f9967-0087-4460-bc4b-026f032ece8b</webElementGuid>
+      <webElementGuid>9d33ad8e-3cf2-4910-a5a7-1960ad5de751</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'userSelect']</value>
-      <webElementGuid>9eaf1dd1-d735-4304-bbe7-1cd37ca139d6</webElementGuid>
+      <webElementGuid>ac68a2f0-988b-468a-a8c2-3c0bdbf7d419</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +120,6 @@
 	      ---Your Name--- 
 	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
 	    ')]</value>
-      <webElementGuid>c5699c10-0c81-497e-9d29-31f91330ea3f</webElementGuid>
+      <webElementGuid>73490343-c3c3-4192-9450-a8e747560664</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

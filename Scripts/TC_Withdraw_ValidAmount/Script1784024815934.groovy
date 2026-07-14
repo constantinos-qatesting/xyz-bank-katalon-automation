@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /*
- Test Case: Deposit Valid Amount
+ Test Case: Withdraw Valid Amount
  
  Description:
- Verify that a customer can deposit money
- and the account balance is updated correctly.
+ Verify that a customer can withdraw money
+ and the account balance decreases correctly.
  */
  
  // Open browser
@@ -45,49 +45,67 @@ import org.openqa.selenium.Keys as Keys
  
  WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Login'))
  
- // Read current balance before deposit
- 
- int balanceBefore = WebUI.getText(
-	 findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
- ).trim().toInteger()
- 
- // Deposit amount for this test
+ // Prepare the account with a deposit
  
  int depositAmount = 100
  
- // Calculate expected balance
- 
- int expectedBalance = balanceBefore + depositAmount
- 
- // Open Deposit page
- 
  WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Deposit'))
- 
- // Enter deposit amount
  
  WebUI.setText(
 	 findTestObject('Object Repository/Page_XYZ Bank/input_WithdrawAmount'),
 	 depositAmount.toString()
  )
  
- // Submit deposit
- 
  WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_SubmitDeposit'))
  
- // Verify success message
+ // Verify deposit message
  
  WebUI.verifyElementText(
 	 findTestObject('Object Repository/Page_XYZ Bank/span_DepositSuccessful'),
 	 'Deposit Successful'
  )
  
- // Read balance after deposit
+ // Read balance before withdrawal
+ 
+ int balanceBefore = WebUI.getText(
+	 findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
+ ).trim().toInteger()
+ 
+ // Calculate expected balance
+ 
+ int withdrawalAmount = 50
+ 
+ int expectedBalance = balanceBefore - withdrawalAmount
+ 
+ // Open withdrawal form
+ 
+ WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Withdraw'))
+ 
+ // Enter withdrawal amount
+ 
+ WebUI.setText(
+	 findTestObject('Object Repository/Page_XYZ Bank/input_WithdrawAmount'),
+	 withdrawalAmount.toString()
+ )
+ 
+ // Submit withdrawal
+ 
+ WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_SubmitWithdraw'))
+ 
+ // Verify successful withdrawal message
+ 
+ WebUI.verifyElementText(
+	 findTestObject('Object Repository/Page_XYZ Bank/span_TransactionSuccessful'),
+	 'Transaction successful'
+ )
+ 
+ // Read balance after withdrawal
  
  int balanceAfter = WebUI.getText(
 	 findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
  ).trim().toInteger()
  
- // Verify the balance increased correctly
+ // Verify balance decreased correctly
  
  WebUI.verifyEqual(balanceAfter, expectedBalance)
  
