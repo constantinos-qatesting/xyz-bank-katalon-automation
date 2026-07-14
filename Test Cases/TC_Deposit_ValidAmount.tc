@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Deposit_ValidAmount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da425a91-42f4-48aa-9a65-beb5ad14bad2</testCaseGuid>
+</TestCaseEntity>
