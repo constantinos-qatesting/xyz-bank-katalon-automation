@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Deposit</name>
+   <name>input_amount</name>
    <tag></tag>
-   <elementGuidId>8d421443-becd-48f9-8b91-8f9e9f102e44</elementGuidId>
+   <elementGuidId>dc42487e-0200-4fac-b9f1-3c47941427c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@ng-click = 'deposit()']</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[ng-click=&quot;deposit\(\)&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Deposit
-		
-		' or . = 'Deposit
-		
-		')]</value>
+         <value>.form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Deposit&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;amount&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,77 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>575fee33-ae34-4edf-b2ad-48e4b6b04f5c</webElementGuid>
+      <value>input</value>
+      <webElementGuid>95dcc9aa-2e18-458f-80a0-63c8366a70b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>btnClass2</value>
-      <webElementGuid>cb601f97-bf68-4ef6-b881-752e44e3afff</webElementGuid>
+      <value>number</value>
+      <webElementGuid>461e3d31-9f1c-44b8-af25-fecdab9efd2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-lg tab</value>
-      <webElementGuid>4f3bb580-fd04-4f82-9079-23a030b2580b</webElementGuid>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>bb142141-5655-49de-bd70-a55b0673c499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
+      <name>ng-model</name>
       <type>Main</type>
-      <value>deposit()</value>
-      <webElementGuid>0164ee71-767b-4604-8f45-474d06866419</webElementGuid>
+      <value>amount</value>
+      <webElementGuid>3d245e50-6e1d-466e-9512-ab41b7eb4d2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Deposit
-		
-		</value>
-      <webElementGuid>12e1be4a-7438-4b94-90ac-d5e305ce87dc</webElementGuid>
+      <value>amount</value>
+      <webElementGuid>7943e514-b400-4ed5-88c7-0b3341858220</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-ce5791cae33bcf819b2aa54faa0b2743</value>
-      <webElementGuid>e527e2fb-5980-4261-9a5f-1a04949571d1</webElementGuid>
+      <value>md5.v1-6c4bde44da374689d00b02d5e1e3e43c</value>
+      <webElementGuid>dd05178e-f7df-4848-93c6-f48ef026be2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@ng-click = 'deposit()']</value>
-      <webElementGuid>52130a78-a848-45c4-a515-1ea93b76684f</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ')]</value>
+      <webElementGuid>875f0074-4f5e-40af-8c2a-04a08807e6a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@ng-click = 'deposit()']</value>
-      <webElementGuid>44980eb4-ecf7-414a-a176-50d0e80518d5</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ')]</value>
+      <webElementGuid>b0fdbff9-f8dc-4fd8-8bb6-933c66372df0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Deposit
-		
-		' or . = 'Deposit
-		
-		')]</value>
-      <webElementGuid>488ee1ea-1e1a-4776-be7d-dfa7b5f9c5f4</webElementGuid>
+      <value>//input[@type = 'number' and @placeholder = 'amount']</value>
+      <webElementGuid>8d105909-b18c-4800-89ef-fdfc2033db80</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Deposit</name>
+   <name>button_Transactions</name>
    <tag></tag>
-   <elementGuidId>8d421443-becd-48f9-8b91-8f9e9f102e44</elementGuidId>
+   <elementGuidId>c2ef4b62-59b5-48e5-9c31-f95cb2fb3a49</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@ng-click = 'deposit()']</value>
+         <value>//*[@ng-click = 'transactions()']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[ng-click=&quot;deposit\(\)&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Deposit
-		
-		' or . = 'Deposit
-		
-		')]</value>
+         <value>[ng-click=&quot;transactions\(\)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Deposit&quot;i]</value>
+         <value>internal:role=button[name=&quot;Transactions&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -37,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>575fee33-ae34-4edf-b2ad-48e4b6b04f5c</webElementGuid>
+      <webElementGuid>0410d3fc-5074-4389-8d41-11266925f0b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-class</name>
       <type>Main</type>
-      <value>btnClass2</value>
-      <webElementGuid>cb601f97-bf68-4ef6-b881-752e44e3afff</webElementGuid>
+      <value>btnClass1</value>
+      <webElementGuid>9f30d711-ad42-4738-b395-049c6115a048</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,60 +45,60 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-lg tab</value>
-      <webElementGuid>4f3bb580-fd04-4f82-9079-23a030b2580b</webElementGuid>
+      <webElementGuid>d5cff9de-8eef-4334-8f0d-7ecd2f151bf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>deposit()</value>
-      <webElementGuid>0164ee71-767b-4604-8f45-474d06866419</webElementGuid>
+      <value>transactions()</value>
+      <webElementGuid>b33c4d6e-14a8-43b9-b109-d245e9725ed9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Deposit
+      <value>Transactions
 		
 		</value>
-      <webElementGuid>12e1be4a-7438-4b94-90ac-d5e305ce87dc</webElementGuid>
+      <webElementGuid>3922f02f-71ea-44a9-a321-fc63fc90539d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-ce5791cae33bcf819b2aa54faa0b2743</value>
-      <webElementGuid>e527e2fb-5980-4261-9a5f-1a04949571d1</webElementGuid>
+      <value>md5.v1-aabe37f26e5f35d7e72d2a1fe59fc870</value>
+      <webElementGuid>f96ed543-6ae3-47ac-91ef-32611acf9640</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@ng-click = 'deposit()']</value>
-      <webElementGuid>52130a78-a848-45c4-a515-1ea93b76684f</webElementGuid>
+      <value>//*[@ng-click = 'transactions()']</value>
+      <webElementGuid>ff3d1d97-2163-4286-bceb-7a2a815f611e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@ng-click = 'deposit()']</value>
-      <webElementGuid>44980eb4-ecf7-414a-a176-50d0e80518d5</webElementGuid>
+      <value>//*[@ng-click = 'transactions()']</value>
+      <webElementGuid>bd8dab8d-363a-49cc-9d4c-dc99ee7acbe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Deposit
+      <value>//button[(text() = 'Transactions
 		
-		' or . = 'Deposit
+		' or . = 'Transactions
 		
 		')]</value>
-      <webElementGuid>488ee1ea-1e1a-4776-be7d-dfa7b5f9c5f4</webElementGuid>
+      <webElementGuid>389db1fa-af49-4723-a12f-c07c27a1bc3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

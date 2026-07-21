@@ -10,6 +10,10 @@
          <value>//*[@id = 'userSelect']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#userSelect</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'userSelect' and @id = 'userSelect' and (text() = '
 	      ---Your Name--- 
@@ -18,10 +22,6 @@
 	      ---Your Name--- 
 	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
 	    ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#userSelect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -39,7 +39,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>ffa8eb7f-4ed9-4ecf-8812-de6aef7bea5a</webElementGuid>
+      <webElementGuid>804a51ab-9a42-4379-8815-50bdec7e9f20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control ng-pristine ng-untouched ng-valid</value>
-      <webElementGuid>a8e56172-6a53-4714-a75c-b0ec980c8430</webElementGuid>
+      <webElementGuid>a593fa07-d46e-486b-9ed2-885c07b217fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>userSelect</value>
-      <webElementGuid>93ebe9fd-3e76-4e61-818c-c5fd9ba5d43c</webElementGuid>
+      <webElementGuid>3bcea12f-a6bf-42c4-82b9-5a32996c1bd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>id</name>
       <type>Main</type>
       <value>userSelect</value>
-      <webElementGuid>15a8364d-b8cf-477e-93ae-45e66ce1b9df</webElementGuid>
+      <webElementGuid>0c0a759d-467a-41f2-ba6d-6d820b11f7ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>custId</value>
-      <webElementGuid>71bd8714-38af-4a1a-bbf9-adb3980536cc</webElementGuid>
+      <webElementGuid>c140ca5c-932a-4364-83c8-b8174025f603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
 	      ---Your Name--- 
 	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
 	    </value>
-      <webElementGuid>8bd89b7d-0f47-4526-beac-f4e7bdf2058c</webElementGuid>
+      <webElementGuid>16443036-e819-49e0-8173-7e76ceb8599b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-bad364bb78b370ad8b83a86d087dbd1f</value>
-      <webElementGuid>8a30a213-5078-4339-bb34-04567be1b4b6</webElementGuid>
+      <webElementGuid>bb433c8f-d774-473b-831e-2e96a174ee6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'userSelect']</value>
-      <webElementGuid>9d33ad8e-3cf2-4910-a5a7-1960ad5de751</webElementGuid>
+      <webElementGuid>b59b2422-584c-4c78-b27d-0ed87927562e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'userSelect']</value>
-      <webElementGuid>ac68a2f0-988b-468a-a8c2-3c0bdbf7d419</webElementGuid>
+      <webElementGuid>73c9e9c0-2f82-4706-9eb9-bf3fcc89b33e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +120,6 @@
 	      ---Your Name--- 
 	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
 	    ')]</value>
-      <webElementGuid>73490343-c3c3-4192-9450-a8e747560664</webElementGuid>
+      <webElementGuid>93550448-68c1-45d2-acb4-96f1608a4d7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,12 +10,12 @@
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f8c74845-c07e-491d-95c9-09a789d673fd</webElementGuid>
+      <webElementGuid>f0356698-9577-4859-a4ea-dfe2e3d711a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-      <webElementGuid>3c84dd60-6592-4fd9-b7f6-10253a66b3af</webElementGuid>
+      <webElementGuid>5cc3c14b-0b35-493f-a6bb-eff38d9de6ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>31e36a83-fc6f-4cc6-8aae-91af0bda652b</webElementGuid>
+      <webElementGuid>b2a41b49-6fcb-4080-a730-97561b96834d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>ng-show</name>
       <type>Main</type>
       <value>custId != ''</value>
-      <webElementGuid>6d9d59c8-72c8-431b-bf55-b1295f0f02a0</webElementGuid>
+      <webElementGuid>4674cffc-e327-4358-86f4-f3324d253a81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>d68e9a00-b9b6-47b0-9387-7343242dfc5f</webElementGuid>
+      <webElementGuid>388a8353-b4d6-4d77-a69c-104de7adf76d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]</value>
-      <webElementGuid>25be5eed-09d7-4f6a-874a-e07d597fcbc7</webElementGuid>
+      <webElementGuid>2d44118d-3f53-4762-98e9-cc704fb7b025</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-8aa05ab92fc3b8464df566ac0b5576b0</value>
-      <webElementGuid>91933ba5-d0bf-4da8-9371-7528d3f793c6</webElementGuid>
+      <webElementGuid>9c00ae39-fea8-46cd-bfa5-bdd8e32e8d13</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-default ')]</value>
-      <webElementGuid>3672a8a8-d434-4c0f-aef3-4fe5e05881c7</webElementGuid>
+      <webElementGuid>59f927b4-d7a7-4cc4-aaa6-4b8f0ed0dd8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>9b5cc3f9-f5cd-4a03-a0e7-efd133550823</webElementGuid>
+      <webElementGuid>5c374320-21d0-4383-bb13-b7fd1e734d20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
