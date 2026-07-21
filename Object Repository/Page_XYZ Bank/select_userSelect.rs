@@ -6,22 +6,22 @@
    <elementGuidId>95e88d46-3c98-467a-b085-d921b5d3f241</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id = 'userSelect']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'userSelect' and @id = 'userSelect' and (text() = '
+	      		---Customer Name--- 
+	      		Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
+	    	' or . = '
+	      		---Customer Name--- 
+	      		Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
+	    	')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#userSelect</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'userSelect' and @id = 'userSelect' and (text() = '
-	      ---Your Name--- 
-	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
-	    ' or . = '
-	      ---Your Name--- 
-	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
-	    ')]</value>
+         <key>XPATH</key>
+         <value>//*[@id = 'userSelect']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -39,15 +39,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>804a51ab-9a42-4379-8815-50bdec7e9f20</webElementGuid>
+      <webElementGuid>8a8011dc-aa44-4642-af58-1cffc8fdebcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid</value>
-      <webElementGuid>a593fa07-d46e-486b-9ed2-885c07b217fc</webElementGuid>
+      <value>form-control ng-pristine ng-untouched ng-invalid ng-invalid-required</value>
+      <webElementGuid>51a4ab77-13c5-47f5-84d8-7f4fdad4b93a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>userSelect</value>
-      <webElementGuid>3bcea12f-a6bf-42c4-82b9-5a32996c1bd9</webElementGuid>
+      <webElementGuid>beec54df-2418-4bd7-8717-7dab1ab7acfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>id</name>
       <type>Main</type>
       <value>userSelect</value>
-      <webElementGuid>0c0a759d-467a-41f2-ba6d-6d820b11f7ed</webElementGuid>
+      <webElementGuid>3b7ebf94-705a-41b8-a08d-87f7efadeb09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>custId</value>
-      <webElementGuid>c140ca5c-932a-4364-83c8-b8174025f603</webElementGuid>
+      <webElementGuid>e81bf8ea-610e-4f41-badb-374d5e815942</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,10 +79,10 @@
       <name>text</name>
       <type>Main</type>
       <value>
-	      ---Your Name--- 
-	      Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
-	    </value>
-      <webElementGuid>16443036-e819-49e0-8173-7e76ceb8599b</webElementGuid>
+	      		---Customer Name--- 
+	      		Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
+	    	</value>
+      <webElementGuid>83bb3aec-98f0-45e6-8646-e9559ee272ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-bad364bb78b370ad8b83a86d087dbd1f</value>
-      <webElementGuid>bb433c8f-d774-473b-831e-2e96a174ee6a</webElementGuid>
+      <webElementGuid>212adb4b-b759-4915-8895-5b0a30e56cac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'userSelect']</value>
-      <webElementGuid>b59b2422-584c-4c78-b27d-0ed87927562e</webElementGuid>
+      <webElementGuid>9c13cee8-7655-4128-9e72-c1bebc6eb8ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,21 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'userSelect']</value>
-      <webElementGuid>73c9e9c0-2f82-4706-9eb9-bf3fcc89b33e</webElementGuid>
+      <webElementGuid>c984b396-c79d-482c-b59d-ca2a94c1cc64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'userSelect' and @id = 'userSelect' and (text() = '
+	      		---Customer Name--- 
+	      		Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
+	    	' or . = '
+	      		---Customer Name--- 
+	      		Hermoine GrangerHarry PotterRon WeaslyAlbus DumbledoreNeville Longbottom
+	    	')]</value>
+      <webElementGuid>43fe9260-a2da-4377-a815-f95ca877f6b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
