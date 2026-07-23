@@ -17,33 +17,55 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+/*
+Test Case: Verify Transaction History
 
-WebUI.navigateToUrl('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login')
+Description:
+Verify that a deposit and withdrawal
+appear correctly in the transaction history.
+*/
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Customer Login'))
+// Open application
 
-WebUI.selectOptionByValue(findTestObject('Page_XYZ Bank/select_userSelect'), '2', false)
+CustomKeywords.'common.BrowserActions.openApplication'()
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Login'))
+// Login as Harry Potter
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Deposit'))
+CustomKeywords.'bank.CustomerActions.loginAsCustomer'('Harry Potter')
 
-WebUI.setText(findTestObject('Page_XYZ Bank/input_amount'), '100')
+// Deposit money
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Login'))
+int depositAmount = 100
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Withdrawl'))
+CustomKeywords.'bank.CustomerActions.depositMoney'(depositAmount)
 
-WebUI.setText(findTestObject('Page_XYZ Bank/input_amount'), '50')
+// Withdraw money
 
-WebUI.click(findTestObject('Page_XYZ Bank/form_myForm'))
+int withdrawalAmount = 50
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Login'))
+CustomKeywords.'bank.CustomerActions.withdrawMoney'(withdrawalAmount)
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Transactions'))
+// Open Transactions
 
-WebUI.verifyElementText(findTestObject('Page_XYZ Bank/cell_FirstAmount'), '50')
+WebUI.click(
+    findTestObject('Object Repository/Page_XYZ Bank/button_Transactions')
+)
 
-WebUI.verifyElementText(findTestObject('Page_XYZ Bank/cell_FirstType'), 'Debit')
+// Verify latest transaction amount
+
+WebUI.verifyElementText(
+    findTestObject('Object Repository/Page_XYZ Bank/cell_FirstAmount'),
+    withdrawalAmount.toString()
+)
+
+// Verify latest transaction type
+
+WebUI.verifyElementText(
+    findTestObject('Object Repository/Page_XYZ Bank/cell_FirstType'),
+    'Debit'
+)
+
+// Close application
+
+CustomKeywords.'common.BrowserActions.closeApplication'()
 

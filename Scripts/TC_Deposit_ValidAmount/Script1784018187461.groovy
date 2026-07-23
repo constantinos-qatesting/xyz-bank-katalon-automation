@@ -19,78 +19,48 @@ import org.openqa.selenium.Keys as Keys
 
 /*
  Test Case: Deposit Valid Amount
- 
+
  Description:
  Verify that a customer can deposit money
  and the account balance is updated correctly.
- */
- 
- // Open browser
- 
- WebUI.openBrowser('')
- 
- // Go to application
- 
- WebUI.navigateToUrl(GlobalVariable.BASE_URL)
- 
- // Login as Harry Potter
- 
- WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_CustomerLogin'))
- 
- WebUI.selectOptionByLabel(
-	 findTestObject('Object Repository/Page_XYZ Bank/select_userSelect'),
-	 'Harry Potter',
-	 false
- )
- 
- WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Login'))
- 
- // Read current balance before deposit
- 
- int balanceBefore = WebUI.getText(
-	 findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
- ).trim().toInteger()
- 
- // Deposit amount for this test
- 
- int depositAmount = 100
- 
- // Calculate expected balance
- 
- int expectedBalance = balanceBefore + depositAmount
- 
- // Open Deposit page
- 
- WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Deposit'))
- 
- // Enter deposit amount
- 
- WebUI.setText(
-	 findTestObject('Object Repository/Page_XYZ Bank/input_WithdrawAmount'),
-	 depositAmount.toString()
- )
- 
- // Submit deposit
- 
- WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_SubmitDeposit'))
- 
- // Verify success message
- 
- WebUI.verifyElementText(
-	 findTestObject('Object Repository/Page_XYZ Bank/span_DepositSuccessful'),
-	 'Deposit Successful'
- )
- 
- // Read balance after deposit
- 
- int balanceAfter = WebUI.getText(
-	 findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
- ).trim().toInteger()
- 
- // Verify the balance increased correctly
- 
- WebUI.verifyEqual(balanceAfter, expectedBalance)
- 
- // Close browser
- 
- WebUI.closeBrowser()
+*/
+
+// Open application
+
+CustomKeywords.'common.BrowserActions.openApplication'()
+
+// Login as Harry Potter
+
+CustomKeywords.'bank.CustomerActions.loginAsCustomer'('Harry Potter')
+
+// Read current balance before deposit
+
+int balanceBefore = WebUI.getText(
+    findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
+).trim().toInteger()
+
+// Deposit amount for this test
+
+int depositAmount = 100
+
+// Calculate expected balance
+
+int expectedBalance = balanceBefore + depositAmount
+
+// Deposit money
+
+CustomKeywords.'bank.CustomerActions.depositMoney'(depositAmount)
+
+// Read balance after deposit
+
+int balanceAfter = WebUI.getText(
+    findTestObject('Object Repository/Page_XYZ Bank/span_AccountBalance')
+).trim().toInteger()
+
+// Verify the balance increased correctly
+
+WebUI.verifyEqual(balanceAfter, expectedBalance)
+
+// Close application
+
+CustomKeywords.'common.BrowserActions.closeApplication'()

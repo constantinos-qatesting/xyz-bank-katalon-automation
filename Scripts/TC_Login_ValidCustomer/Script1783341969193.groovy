@@ -17,17 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+/*
+ Test Case: Login Valid Customer
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL)
+ Description:
+ Verify that a valid customer
+ can log in successfully.
+*/
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_CustomerLogin'))
+// Open application
 
-WebUI.selectOptionByLabel(findTestObject('Page_XYZ Bank/select_userSelect'), 'Harry Potter', false)
+CustomKeywords.'common.BrowserActions.openApplication'()
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_SubmitDeposit'))
+// Login as customer
 
-WebUI.verifyElementText(findTestObject('Page_XYZ Bank/strong_WelcomeHarryPotter'), 'Welcome Harry Potter !!')
+CustomKeywords.'bank.CustomerActions.loginAsCustomer'('Harry Potter')
 
-WebUI.closeBrowser()
+// Verify welcome message
 
+WebUI.verifyElementText(
+    findTestObject('Page_XYZ Bank/strong_WelcomeHarryPotter'),
+    'Welcome Harry Potter !!'
+)
+
+// Close application
+
+CustomKeywords.'common.BrowserActions.closeApplication'()

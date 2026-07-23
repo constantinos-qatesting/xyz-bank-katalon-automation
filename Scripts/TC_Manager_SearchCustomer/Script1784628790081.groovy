@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+// Open application
 
-WebUI.navigateToUrl('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login')
+CustomKeywords.'common.BrowserActions.openApplication'()
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Bank Manager Login'))
+// Open Bank Manager
+
+CustomKeywords.'bank.ManagerActions.openBankManager'()
 
 WebUI.click(findTestObject('Page_XYZ Bank/button_Customers'))
 
@@ -37,4 +39,6 @@ WebUI.verifyElementText(
 	'Potter'
 )
 
-WebUI.closeBrowser()
+// Close application
+
+CustomKeywords.'common.BrowserActions.closeApplication'()

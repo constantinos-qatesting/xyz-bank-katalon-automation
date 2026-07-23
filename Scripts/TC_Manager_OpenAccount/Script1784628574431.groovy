@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -14,22 +15,32 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+/*
+ Test Case: Manager Open Account
 
-WebUI.navigateToUrl('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login')
+ Description:
+ Verify that a Bank Manager
+ can successfully open an account for an existing customer.
+*/
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Bank Manager Login'))
+// Open application
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Open Account'))
+CustomKeywords.'common.BrowserActions.openApplication'()
 
-WebUI.selectOptionByValue(findTestObject('Page_XYZ Bank/select_userSelect'), '2', false)
+// Open Bank Manager
 
-WebUI.selectOptionByValue(findTestObject('Page_XYZ Bank/select_currency'), 'Dollar', false)
+CustomKeywords.'bank.ManagerActions.openBankManager'()
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Process'))
+// Open account
+
+CustomKeywords.'bank.ManagerActions.openAccount'(
+    'Harry Potter',
+    'Dollar'
+)
 
 // Verify that the success alert appears
 
@@ -42,16 +53,15 @@ String alertText = WebUI.getAlertText()
 // Verify success message
 
 WebUI.verifyMatch(
-	alertText,
-	'Account created successfully with account Number :.*',
-	true
+    alertText,
+    'Account created successfully with account Number :.*',
+    true
 )
 
 // Accept alert
 
 WebUI.acceptAlert()
 
-// Close browser
+// Close application
 
-WebUI.closeBrowser()
-
+CustomKeywords.'common.BrowserActions.closeApplication'()

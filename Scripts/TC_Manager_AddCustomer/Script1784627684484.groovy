@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -14,24 +15,33 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(null)
+/*
+ Test Case: Manager Add Customer
 
-WebUI.navigateToUrl('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login')
+ Description:
+ Verify that a Bank Manager
+ can successfully add a new customer.
+*/
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Bank Manager Login'))
+// Open application
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Add Customer'))
+CustomKeywords.'common.BrowserActions.openApplication'()
 
-WebUI.setText(findTestObject('Page_XYZ Bank/input_First Name'), 'John')
+// Open Bank Manager
 
-WebUI.setText(findTestObject('Page_XYZ Bank/input_Last Name'), 'Smith')
+CustomKeywords.'bank.ManagerActions.openBankManager'()
 
-WebUI.setText(findTestObject('Page_XYZ Bank/input_Post Code'), '12345')
+// Add customer
 
-WebUI.click(findTestObject('Page_XYZ Bank/button_Add Customer_1'))
+CustomKeywords.'bank.ManagerActions.addCustomer'(
+	'John',
+	'Smith',
+	'12345'
+)
 
 // Verify that the success alert appears
 
@@ -53,7 +63,6 @@ WebUI.verifyMatch(
 
 WebUI.acceptAlert()
 
-// Close browser
+// Close application
 
-WebUI.closeBrowser()
-
+CustomKeywords.'common.BrowserActions.closeApplication'()
